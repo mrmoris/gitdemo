@@ -1,0 +1,30 @@
+git and github 
+
+1)git is service and github,gitlab,bitbucket is service provider 
+2)git is version control system
+3)to store the code we need repos in cloud for fault tolarant and durability
+
+
+feature of git:-
+.free and opensource code is open for all 
+.scalable
+.distributed
+.speed
+.security(hash code)
+.branching and merging
+
+echo "# gitdemo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mrmoris/gitdemo.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/mrmoris/gitdemo.git
+git branch -M main
+git push -u origin main
+
+
+gi tlog
